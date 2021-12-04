@@ -4502,3 +4502,564 @@ File Path                                                                       
 [2021-12-01 10:18:49,818] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-01 13:13:49.818100+00:00
 [2021-12-01 10:19:01,825] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
 [2021-12-01 10:19:01,825] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-01 13:14:01.825879+00:00
+[2021-12-04 12:07:05,118] {dag_processing.py:839} INFO - Processing files using up to 1 processes at a time 
+[2021-12-04 12:07:05,118] {dag_processing.py:840} INFO - Process each file at most once every 0 seconds
+[2021-12-04 12:07:05,118] {dag_processing.py:842} INFO - Checking for new files in /home/rafael/Documentos/alura/datapipeline/airflow/dags every 300 seconds
+[2021-12-04 12:07:05,119] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:07:05,119] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:02:05.119443+00:00
+[2021-12-04 12:07:05,236] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:07:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2021-12-04 12:07:17,121] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:07:17,122] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:02:17.122416+00:00
+[2021-12-04 12:07:29,137] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:07:29,138] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:02:29.138555+00:00
+[2021-12-04 12:07:35,253] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:07:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:07:09
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:07:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:07:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2021-12-04T15:07:15
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:07:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:07:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:07:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:07:07
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:07:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-12-04T15:07:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:07:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-12-04T15:07:11
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:07:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:07:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:07:13
+================================================================================
+[2021-12-04 12:07:41,150] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:07:41,150] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:02:41.150837+00:00
+[2021-12-04 12:07:53,163] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:07:53,164] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:02:53.164335+00:00
+[2021-12-04 12:08:05,174] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:08:05,175] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:03:05.175500+00:00
+[2021-12-04 12:08:05,311] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:07:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:07:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:07:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-12-04T15:07:37
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:07:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-12-04T15:07:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2021-12-04T15:07:45
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:07:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2021-12-04T15:08:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:07:39
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:07:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:07:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2021-12-04T15:07:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:07:41
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:07:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:07:43
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-12-04T15:07:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:07:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:07:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-12-04T15:07:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:07:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-12-04T15:08:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:07:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:07:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:08:03
+================================================================================
+[2021-12-04 12:08:17,186] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:08:17,186] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:03:17.186783+00:00
+[2021-12-04 12:08:29,198] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:08:29,198] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:03:29.198951+00:00
+[2021-12-04 12:08:35,315] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-12-04T15:08:09
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:07:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:07:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-12-04T15:08:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:08:07
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-12-04T15:07:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:08:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-12-04T15:08:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2021-12-04T15:08:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:08:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:08:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2021-12-04T15:08:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2021-12-04T15:07:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:08:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:07:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:08:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-12-04T15:07:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:07:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:08:13
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-12-04T15:08:11
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:08:15
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-12-04T15:08:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:08:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2021-12-04T15:08:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:08:03
+================================================================================
+[2021-12-04 12:08:39,211] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:08:39,211] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:03:39.211689+00:00
+[2021-12-04 12:08:49,223] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:08:49,223] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:03:49.223898+00:00
+[2021-12-04 12:09:01,235] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:09:01,236] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:04:01.236693+00:00
+[2021-12-04 12:09:05,344] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:08:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:08:43
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:08:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-12-04T15:08:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:08:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-12-04T15:08:37
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:08:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-12-04T15:08:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:08:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:08:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:08:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2021-12-04T15:08:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-12-04T15:08:41
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:08:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2021-12-04T15:08:45
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:08:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:08:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:08:39
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:09:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-12-04T15:09:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:09:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-12-04T15:08:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:08:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2021-12-04T15:08:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:08:53
+================================================================================
+[2021-12-04 12:09:13,249] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:09:13,249] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:04:13.249538+00:00
+[2021-12-04 12:09:23,260] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:09:23,261] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:04:23.261132+00:00
+[2021-12-04 12:09:35,276] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:09:35,277] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:04:35.277345+00:00
+[2021-12-04 12:09:35,397] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:08:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2021-12-04T15:09:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:08:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-12-04T15:09:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:08:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-12-04T15:09:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2021-12-04T15:09:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-12-04T15:09:09
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:08:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:09:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:09:07
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:09:11
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2021-12-04T15:09:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:09:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:09:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:09:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:08:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2021-12-04T15:09:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:09:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-12-04T15:09:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:09:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-12-04T15:08:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:09:13
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:09:15
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:08:53
+================================================================================
+[2021-12-04 12:09:47,290] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:09:47,291] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:04:47.291170+00:00
+[2021-12-04 12:09:59,302] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:09:59,302] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:04:59.302505+00:00
+[2021-12-04 12:10:05,420] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-12-04T15:09:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2021-12-04T15:09:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-12-04T15:09:39
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-12-04T15:09:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:09:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-12-04T15:09:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2021-12-04T15:09:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-12-04T15:09:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:09:45
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:09:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:09:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2021-12-04T15:10:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2021-12-04T15:09:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:09:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:09:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:09:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-12-04T15:09:37
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2021-12-04T15:09:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:09:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-12-04T15:09:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:09:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2021-12-04T15:09:41
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2021-12-04T15:10:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:10:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:09:43
+================================================================================
+[2021-12-04 12:10:11,315] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:10:11,316] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:05:11.316049+00:00
+[2021-12-04 12:10:21,328] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:10:21,329] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:05:21.329077+00:00
+[2021-12-04 12:10:31,340] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:10:31,341] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:05:31.341703+00:00
+[2021-12-04 12:10:35,458] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-12-04T15:09:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2021-12-04T15:10:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-12-04T15:10:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-12-04T15:10:07
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:09:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-12-04T15:10:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:10:15
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-12-04T15:09:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:10:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2021-12-04T15:10:09
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:09:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2021-12-04T15:10:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-12-04T15:10:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:10:11
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:10:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:10:13
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-12-04T15:10:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:10:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:09:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-12-04T15:09:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:09:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:10:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2021-12-04T15:10:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:10:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:10:33
+================================================================================
+[2021-12-04 12:10:41,352] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:10:41,353] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:05:41.353622+00:00
+[2021-12-04 12:10:53,365] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:10:53,366] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:05:53.366270+00:00
+[2021-12-04 12:11:05,380] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:11:05,381] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:06:05.381841+00:00
+[2021-12-04 12:11:05,511] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-12-04T15:10:39
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2021-12-04T15:10:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-12-04T15:10:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-12-04T15:10:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:10:37
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-12-04T15:10:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:11:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:10:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:10:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:10:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2021-12-04T15:10:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:10:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-12-04T15:10:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2021-12-04T15:11:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:10:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:11:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-12-04T15:10:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:10:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:10:43
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-12-04T15:10:41
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2021-12-04T15:10:45
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:10:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:10:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2021-12-04T15:10:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:10:33
+================================================================================
+[2021-12-04 12:11:17,393] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:11:17,393] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:06:17.393880+00:00
+[2021-12-04 12:11:29,407] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:11:29,408] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:06:29.408382+00:00
+[2021-12-04 12:11:35,523] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-12-04T15:11:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:11:13
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:11:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-12-04T15:10:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2021-12-04T15:11:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-12-04T15:11:07
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:11:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:10:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:11:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:10:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2021-12-04T15:10:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:10:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-12-04T15:11:11
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2021-12-04T15:11:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:11:15
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:11:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:11:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:11:09
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:11:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-12-04T15:11:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:11:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:11:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:10:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2021-12-04T15:10:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:11:23
+================================================================================
+[2021-12-04 12:11:41,422] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:11:41,423] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:06:41.423119+00:00
+[2021-12-04 12:11:53,436] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:11:53,437] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:06:53.437609+00:00
+[2021-12-04 12:12:05,450] {dag_processing.py:939} INFO - Searching for files in /home/rafael/Documentos/alura/datapipeline/airflow/dags
+[2021-12-04 12:12:05,452] {dag_processing.py:942} INFO - There are 25 files in /home/rafael/Documentos/alura/datapipeline/airflow/dags
+[2021-12-04 12:12:05,466] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:12:05,466] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:07:05.466431+00:00
+[2021-12-04 12:12:05,573] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2021-12-04T15:11:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:12:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:11:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-12-04T15:11:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2021-12-04T15:11:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-12-04T15:11:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:11:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:11:39
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:11:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:11:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2021-12-04T15:11:37
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:11:41
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-12-04T15:12:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:11:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:12:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-12-04T15:11:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:11:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:11:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:11:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-12-04T15:11:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:11:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:11:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:11:43
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:11:45
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:11:23
+================================================================================
+[2021-12-04 12:12:17,461] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:12:17,461] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:07:17.461835+00:00
+[2021-12-04 12:12:27,474] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:12:27,475] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:07:27.475698+00:00
+[2021-12-04 12:12:35,593] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:12:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:12:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2021-12-04T15:12:09
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-12-04T15:11:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:12:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-12-04T15:11:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:11:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:12:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:12:15
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:11:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:12:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:12:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-12-04T15:12:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:11:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:12:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-12-04T15:11:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2021-12-04T15:12:07
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:11:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-12-04T15:12:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-12-04T15:12:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:12:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:12:11
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:12:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:12:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-12-04T15:12:13
+================================================================================
+[2021-12-04 12:12:37,485] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:12:37,486] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:07:37.486144+00:00
+[2021-12-04 12:12:47,497] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:12:47,498] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:07:47.498290+00:00
+[2021-12-04 12:12:59,511] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:12:59,512] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:07:59.512117+00:00
+[2021-12-04 12:13:05,631] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:12:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:12:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-12-04T15:12:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-12-04T15:12:37
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:12:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-12-04T15:12:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-12-04T15:12:45
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:12:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:13:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:12:39
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:12:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-12-04T15:12:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2021-12-04T15:12:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:12:41
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2021-12-04T15:12:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2021-12-04T15:12:43
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:12:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:12:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-12-04T15:12:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-12-04T15:12:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:12:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:13:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-12-04T15:12:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-12-04T15:12:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-12-04T15:13:03
+================================================================================
+[2021-12-04 12:13:11,525] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:13:11,526] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:08:11.526593+00:00
+[2021-12-04 12:13:23,538] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:13:23,539] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:08:23.539568+00:00
+[2021-12-04 12:13:35,551] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:13:35,551] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:08:35.551853+00:00
+[2021-12-04 12:13:35,684] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:13:09
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:12:53
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-12-04T15:12:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-12-04T15:13:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2021-12-04T15:13:07
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-12-04T15:12:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2021-12-04T15:13:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:13:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-12-04T15:13:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:13:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:13:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2021-12-04T15:13:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2021-12-04T15:12:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:13:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2021-12-04T15:12:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-12-04T15:13:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:12:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-12-04T15:12:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2021-12-04T15:13:13
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-12-04T15:13:11
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:13:15
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:13:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2021-12-04T15:13:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2021-12-04T15:13:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-12-04T15:13:03
+================================================================================
+[2021-12-04 12:13:47,562] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:13:47,562] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:08:47.562645+00:00
+[2021-12-04 12:13:59,576] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:13:59,577] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:08:59.577601+00:00
+[2021-12-04 12:14:05,697] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-12-04T15:13:59
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-12-04T15:13:43
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-12-04T15:13:49
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2021-12-04T15:13:27
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-12-04T15:13:57
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2021-12-04T15:13:37
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2021-12-04T15:13:35
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2021-12-04T15:13:19
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2021-12-04T15:13:55
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-12-04T15:13:29
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-12-04T15:13:17
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2021-12-04T15:13:21
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2021-12-04T15:13:41
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-12-04T15:13:31
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-12-04T15:13:45
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-12-04T15:13:33
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-12-04T15:13:47
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2021-12-04T15:13:39
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-12-04T15:14:03
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2021-12-04T15:14:01
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-12-04T15:14:05
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-12-04T15:13:51
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2021-12-04T15:13:23
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2021-12-04T15:13:25
+/home/rafael/Documentos/alura/datapipeline/.env/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2021-12-04T15:13:53
+================================================================================
+[2021-12-04 12:14:09,589] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-12-04 12:14:09,590] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-12-04 15:09:09.590572+00:00
