@@ -387,3 +387,14 @@ Support for importing from within the airflow namespace for plugins will be drop
 [2021-12-09 11:55:14,932] {scheduler_job.py:1288} INFO - Processing twitter_dag
 [2021-12-09 11:55:14,941] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
 [2021-12-09 11:55:14,943] {scheduler_job.py:163} INFO - Processing /home/rafael/Documentos/alura/datapipeline/airflow/dags/twitter_dag.py took 0.037 seconds
+[2021-12-09 11:56:06,965] {scheduler_job.py:155} INFO - Started process (PID=19886) to work on /home/rafael/Documentos/alura/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-09 11:56:06,966] {scheduler_job.py:1572} INFO - Processing file /home/rafael/Documentos/alura/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-12-09 11:56:06,966] {logging_mixin.py:112} INFO - [2021-12-09 11:56:06,966] {dagbag.py:417} INFO - Filling up the DagBag from /home/rafael/Documentos/alura/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-09 11:56:06,968] {logging_mixin.py:112} WARNING - /home/rafael/Documentos/alura/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-12-09 11:56:06,973] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/rafael/Documentos/alura/datapipeline/airflow/dags/twitter_dag.py
+[2021-12-09 11:56:07,001] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-12-09 11:56:07,013] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-12-09 11:56:07,016] {scheduler_job.py:163} INFO - Processing /home/rafael/Documentos/alura/datapipeline/airflow/dags/twitter_dag.py took 0.051 seconds
